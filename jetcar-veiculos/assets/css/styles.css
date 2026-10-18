@@ -114,7 +114,7 @@ body.menu-open { overflow: hidden; }
 .rotas b { font-size: 1.12rem; letter-spacing: -0.01em; }
 .rotas span:last-child { font-size: 0.92rem; color: var(--muted); }
 
-.visite { display: grid; grid-template-columns: 0.8fr 1.2fr; gap: clamp(28px, 5vw, 72px); align-items: center; padding: clamp(64px, 8vw, 110px) var(--gutter) 0; }
+.visite { overflow-x: clip; display: grid; grid-template-columns: 0.8fr 1.2fr; gap: clamp(28px, 5vw, 72px); align-items: center; padding: clamp(64px, 8vw, 110px) var(--gutter) 0; }
 .visite__foto { border-radius: 32px; overflow: hidden; aspect-ratio: 3 / 4; box-shadow: var(--shadow); }
 .visite__foto img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 12%; }
 .visite__dados { display: grid; gap: 14px; margin: 24px 0; }

@@ -182,7 +182,7 @@ body.menu-open { overflow: hidden; }
 @media (max-width: 920px) {
   .nav, .topbar__cta { display: none; }
   .nav-toggle { display: block; }
-  .numeros { grid-template-columns: repeat(2, 1fr); }
+  .numeros { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .numeros li:nth-child(3) { border-left: 0; padding-left: 0; }
   .numeros li:nth-child(n+3) { border-top: 1px solid var(--line); }
   .pagamento, .visite { grid-template-columns: 1fr; }
@@ -197,7 +197,8 @@ body.menu-open { overflow: hidden; }
   .hero__bloco { position: relative; left: auto; bottom: auto; width: auto; margin: -64px 12px 0; padding: 26px 20px 24px; }
   .display { font-size: clamp(3rem, 15vw, 4rem); }
   .hero__actions .btn { flex: 1 1 auto; }
-  .numeros li { padding: 20px 12px 18px; }
+  .numeros li { padding: 20px 12px 18px; min-width: 0; }
+  .numeros b { font-size: 2.3rem; overflow-wrap: anywhere; }
   .servicos__lista { grid-template-columns: 1fr; }
   .pagamento__foto img { aspect-ratio: 4 / 4.2; }
   .visite__mapa, .visite__mapa iframe { min-height: 300px; }

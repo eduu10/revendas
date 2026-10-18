@@ -190,7 +190,7 @@ body.galeria-aberta { overflow: hidden; }
 
 /* ================= BRASA ================= */
 .estoque { padding-top: clamp(72px, 9vw, 120px); }
-.estoque__head { grid-template-columns: auto 1fr; }
+
 .estoque__head p { justify-self: end; }
 .filtros { background: var(--bg-2); border-radius: 0; border-top: 3px solid var(--text); }
 .filtros__titulo { font-family: var(--display); font-weight: 600; font-size: 1.5rem; line-height: 1; text-transform: uppercase; }
@@ -232,6 +232,7 @@ body.galeria-aberta { overflow: hidden; }
 .galeria__contador { border-radius: 2px; }
 
 @media (max-width: 860px) {
+  .estoque__head { grid-template-columns: 1fr; }
   .estoque__head p { justify-self: start; }
 }
 @media (max-width: 560px) {
