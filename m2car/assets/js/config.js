@@ -4,7 +4,7 @@ window.LOJA = {
   whats: '5583986600000',
   instagram: 'm2carcg',
   /* marcas com SVG em assets/img/marcas/<slug>.svg; as outras aparecem com as iniciais */
-  logos: [],
-  tipos: { 'Carro': 'Carros', 'Moto': 'Motos' },
+  logos: ['chevrolet', 'mercedesbenz', 'toyota', 'volkswagen'],
+  tipos: { 'Carro': 'Carros' },
   porPagina: 9
 };
